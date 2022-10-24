@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 69%, 71%)
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: url('https://i.ibb.co/vmGjxDp/bg-desktop.png'), var(--Violet);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container{
+    /* background-color: orange; */
+    width: 90%;
+    margin: 3vh auto;
+}
+
+.content-container{
+    margin: 20px 0;
+    display: flex;
+}
+
+.content-container .image-content, .content-container .content{
+    width: 50%;
+}
+
+.content-container .image-content img{
+    width: 100%;
+}
+
+.content-container .content{
+    padding: 40px 50px;
+}
+
+.content-container .content h2{
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.content-container .content p{
+    color: #fff;
+}
+
+.content-container .content .button{
+    border: 0;
+    margin: 20px 0;
+    padding: 15px 50px;
+    border-radius: 100px;
+    color: var(--Violet);
+    cursor: pointer;
+    box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.75);
+}
+
+.content-container .content .button:hover{
+    color: #fff;
+    background-color: var(--Soft-Magenta);
+}
+
+.social-media{
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+}
+
+.social-media h3{
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 1px solid #fff;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.social-media h3:hover{
+    color: var(--Soft-Magenta);
+    border: 1px solid var(--Soft-Magenta);
+}
+
+
+@media only screen and (max-width: 700px) {
+    body {
+        background: url("https://i.ibb.co/48Q2yTX/bg-mobile.png"), var(--Violet);
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    .content-container{
+        flex-direction: column;
+    }
+
+    .content-container .image-content, .content-container .content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .content-container .content .button{
+        width: 50%;
+        text-align: center;
+    }
+
+    .social-media{
+        flex-direction: row;
+        justify-content: center;
+    }
+}
