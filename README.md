@@ -10,6 +10,6 @@ You can visit this project at: <a href="https://matiasmass.github.io/huddle-land
 
 ## Mobile version:
 <p align="center">
-<a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/pLgS937q/2.png" alt="2"/></a><br/><br/>
+<a href="https://postimg.cc/hJwd5VQm" target="_blank"><img src="https://i.postimg.cc/qRBxgLk1/2.png" alt="2"/></a><br/><br/>
 
 </p>
