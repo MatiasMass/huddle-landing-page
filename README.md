@@ -4,7 +4,7 @@ You can visit this project at: <a href="https://matiasmass.github.io/huddle-land
 
 ## Desktop version:
 <p align="center">
-<a href="https://postimages.org/" target="_blank"><img src="https://i.postimg.cc/YC4VCtXv/1.png" alt="1"/></a><br/><br/>
+<a href="https://postimg.cc/Tyhb0t1G" target="_blank"><img src="https://i.postimg.cc/rpN98bLd/1.png" alt="1"/></a><br/><br/>
 
 </p>
 
